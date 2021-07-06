@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": false,
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/context/*": ["context/*"],
+      "@/helpers/*": ["helpers/*"],
+      "@/layouts/*": ["layouts/*"],
+      "@/pages/*": ["pages/*"],
+      "@/styles/*": ["styles/*"]
+    }
+  }
+}
