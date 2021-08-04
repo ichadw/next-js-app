@@ -1,6 +1,6 @@
 import Profile from "../../pages/profile";
 import { render } from "@testing-library/react";
-import { ToasterProvider } from "@/context/Toaster";
+import { ToasterProvider } from "@/context/toaster";
 
 describe("The Profile Page Component", () => {
   it("should render text Profile page", () => {
