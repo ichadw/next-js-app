@@ -33,6 +33,7 @@ module.exports = {
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
   setupFilesAfterEnv: ["./jest.setup.js"],
   moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/$1',
     "^@/components(.*)$": "<rootDir>/components$1",
     "^@/context(.*)$": "<rootDir>/context$1",
     "^@/helpers(.*)$": "<rootDir>/helpers$1",
