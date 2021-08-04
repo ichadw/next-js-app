@@ -39,7 +39,7 @@ function Dashboard({ totalPages, users }) {
     <>
       <Typography variant="h6">Dashboard Page</Typography>
       <Grid container spacing={5}>
-        {stateUsers.map(({ id, first_name, email }) => (
+        {stateUsers?.map(({ id, first_name, email }) => (
           <Grid item xs={12} sm={6} lg={4} key={id}>
             <Card>
               <CardActionArea>
