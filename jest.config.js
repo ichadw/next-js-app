@@ -34,6 +34,7 @@ module.exports = {
   setupFilesAfterEnv: ["./jest.setup.js"],
   moduleNameMapper: {
     "^@/components(.*)$": "<rootDir>/components$1",
+    "^@/context(.*)$": "<rootDir>/context$1",
     "^@/helpers(.*)$": "<rootDir>/helpers$1",
     "^@/layouts(.*)$": "<rootDir>/layouts$1",
     "^@/pages(.*)$": "<rootDir>/pages$1",
